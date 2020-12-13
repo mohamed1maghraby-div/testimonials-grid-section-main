@@ -1,0 +1,33 @@
+{
+  "name": "testimonials-grid-section-main",
+  "version": "1.0.0",
+  "description": "Your challenge is to build out this testimonials grid section and get it looking as close to the design as possible.",
+  "main": "index.js",
+  "scripts": {
+    "test": "html,css,pug,scss,gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mohamed1maghraby-div/testimonials-grid-section-main.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "pug",
+    "scss",
+    "gulp"
+  ],
+  "author": "Mohamed Maghraby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mohamed1maghraby-div/testimonials-grid-section-main/issues"
+  },
+  "homepage": "https://github.com/mohamed1maghraby-div/testimonials-grid-section-main#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-livereload": "^4.0.2",
+    "gulp-pug": "^4.0.1",
+    "gulp-sass": "^4.1.0"
+  }
+}

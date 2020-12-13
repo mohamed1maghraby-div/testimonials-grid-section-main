@@ -1,0 +1,112 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(210, 46%, 95%);
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    margin: 0;
+    main{
+        max-width: 1120px;
+        padding: 145px 0;
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        @media (max-width: 375px) {
+            padding: 55px 0;
+        }
+        section{
+            padding: 3%;
+            margin: 15px;
+            border-radius: 10px;
+            box-shadow: 2px 1px 12px #0000003b;
+            @media (max-width: 375px) {
+                margin: 15px 20px;
+                padding: 10%;
+            }
+            .auther{
+                img{
+                    border-radius: 50%;
+                    border: 1px solid hsl(0, 0%, 81%);
+                    float: left;
+                    width: 32px;
+                    height: 32px;
+                    margin-top: 5px;
+                }
+                span{
+                    margin-left: 19px;
+                    font-size: 11px;
+                }
+                p{
+                    margin-left: 50px;
+                    margin-top: 1px;
+                }
+            }
+            h1{
+                font-size: 20px;
+            }
+            p{
+                font-size: 13px;
+                line-height: 16px;
+            }
+        }
+        .first-section{
+            flex: 75%;
+            display: flex;
+            flex-wrap: wrap;
+            .sec1{
+                flex: calc(68% - 30px);
+                background-color: hsl(263, 55%, 52%);
+                background-image: url('images/bg-pattern-quotation.svg');
+                background-repeat: no-repeat;
+                background-position: 80% 0;
+            }
+            .sec2{
+                flex: calc(32% - 30px);
+                background-color: hsl(217, 19%, 35%);
+            }
+            .sec3{
+                background-color: hsl(0, 0%, 100%);
+                flex: calc(32% - 30px);
+            }
+            .sec4{
+                flex: calc(68% - 30px);
+                background-color: hsl(219, 29%, 14%);
+            }
+            .sec1, .sec2, .sec4{
+                color: hsl(0, 0%, 100%);
+                p{
+                    color: hsl(0, 0%, 81%);
+                }
+                span, h1{
+                    color: hsl(210, 46%, 95%);
+                }
+            }
+            .sec3{
+                p{
+                    color: hsl(217, 19%, 35%);
+                }
+                span, h1{
+                    color: hsl(217, 19%, 35%);
+                }
+            }
+            @media (max-width: 375px) {
+                flex-direction: column;
+            }
+        }
+        .sec5{
+            position: relative;
+            top: 10px;
+            flex: calc(25% - 30px);
+            background-color: hsl(0, 0%, 100%);
+            margin-top: 20px;
+            p{
+                color: hsl(217, 19%, 35%);
+            }
+            span, h1{
+                color: hsl(217, 19%, 35%);
+            }
+        }
+    }
+}
+/* this site created by Mohamed Maghraby */
